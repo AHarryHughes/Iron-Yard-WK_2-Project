@@ -1,0 +1,351 @@
+/*
+
+text: #0B1942
+inline link: #00B7D3
+h2 background: #0B1942
+h2 color: #FFFFFF
+logo background: #F5005B
+navigation background: #7DDFE8
+navigation link color: #FFFFFF
+"Home" nav link background: #00A5BF
+"Calendar" nav link background: #00B7D3
+"Join" nav link background: #00D5E7
+"Up Next" background: #0B1942
+"Up Next" card background #E2E2E2
+calendar background and treatments: #0B1942
+calendar highlighted day: #F5005B
+button background: #F5005B
+copyright text: #FFFFFF */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  font-family: 'PT Sans', sans-serif;
+  width: 100%;
+  border: 1px solid black;
+}
+
+
+
+header div.head{
+  display: flex;
+  flex-direction: row;
+}
+div.head-img-bkgrd{
+  background-color: #F5005B;
+  width: 30%;
+  height: 50vh;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+div.head-img{
+  background-image: url('../images/images/filmclub.png');
+  background-size: contain;
+  background-repeat:no-repeat;
+  height: 85%;
+  width: 80%;
+}
+div.head-nav-bar{
+  width: 70%;
+  text-align:center;
+  display: flex;
+  flex-direction: column;
+}
+div.nav-home{
+  background-color: #00A5BF;
+  height: 33%;
+  display: flex;
+  align-items:center;
+}
+div.nav-calendar{
+  background-color: #00B7D3;
+  height: 33%;
+  display: flex;
+  align-items:center;
+}
+div.nav-join{
+  background-color: #00D5E7;
+  height: 34%;
+  display: flex;
+  align-items:center;
+}
+div.head-nav-bar a{
+  text-decoration:none;
+  color: white;
+  font-size: 1.4em;
+}
+section.get-involved{
+  padding: 5%
+}
+h3{
+  color: #0B1942;
+  font-size: 2.7em;
+  font-weight: 100;
+  padding: 3% 0%;
+}
+section.get-involved h4{
+  color: white;
+  background-color: #0B1942;
+  font-weight: 100;
+  padding: 0% 4%;
+  font-size: 2.5em;
+}
+section.get-involved p{
+  margin: 5% 0%;
+  line-height: 1.5em;
+  font-size: 1.4em;
+}
+section.up-next{
+  background-color: #0B1942;
+  padding: 0% 5% 4% 5%;
+}
+section.up-next h3{
+  color:white;
+  font-size: 4em;
+  font-weight: 100;
+}
+div.Rashomon{
+  background-color: #E2E2E2;
+  margin-bottom: 3%;
+  display: flex;
+  flex-direction:row;
+  padding: 4%;
+}
+div.rashomon-img{
+  background-image: url('../images/images/rashomon-poster.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 100vh;
+  margin-right: 4%;
+}
+div.rashomon-info{
+  width: 50%;
+}
+div.rashomon-info a{
+  font-size: 2.2em;
+
+}
+div.rashomon-info h6{
+  font-size: 1.4em;
+  font-weight: 100;
+  margin-top: 5%;
+}
+div.rashomon-info hr{
+  margin-top: 12%;
+  margin-bottom: 12%;
+}
+div.rashomon-info ul{
+  list-style-type: circle;
+  margin: 9%;
+}
+div.rashomon-info li{
+  font-size: 1.3em;
+  margin: 4% 0%;
+}
+div.movies{
+   background-color: #E2E2E2;
+   padding: 4%;
+   height: 215vh;
+   display: flex;
+   flex-wrap: wrap;
+}
+div.movie-poster{
+  width: 50%;
+  padding: 2%;
+}
+div.movie-poster a{
+  color: #00D5E7;
+}
+div.movie-poster h6{
+  font-weight: lighter;
+  margin-top: 2%;
+}
+div.train-robbery{
+  background-image: url('../images/images/great-train-poster.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 95%;
+  height: 90%;
+  margin-bottom: 3%;
+}
+div.bike-theif{
+  background-image: url('../images/images/bicycle-thief-poster.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 95%;
+  height: 90%;
+  margin-bottom: 3%;
+}
+div.Nosferatu{
+  background-image: url('../images/images/nosferatu-poster.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 95%;
+  height: 90%;
+  margin-bottom: 3%;
+}
+div.metropolis{
+  background-image: url('../images/images/metropolis-poster.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 95%;
+  height: 90%;
+  margin-bottom: 3%;
+}
+div.foot-nav-bar{
+  height:75vh;
+  text-align: center;
+  font-size: 1.4em;
+}
+div.foot-nav-bar a{
+  text-decoration:none;
+  color: white;
+}
+div.foot-nav-bar div.nav-home{
+  height: 20%;
+}
+div.foot-nav-bar div.nav-calendar{
+  height: 20%;
+}
+div.foot-nav-bar div.nav-join{
+  height: 20%;
+}
+div.copyright{
+  background-color: #7DDFE8;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 1em;
+}
+section.calendar-heading{
+  height: 35vh;
+  padding: 3%;
+  color: #0B1942;
+}
+section.calendar h4{
+  width: 100%;
+  color: white;
+  font-size: 2.4em;
+  font-weight: 100;
+  height: 30vh;
+  padding: 5%;
+}
+section.calendar{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #0B1942;
+  padding-bottom: 10%;
+}
+div.days{
+  display: flex;
+  flex-wrap: wrap;
+}
+div.day{
+  width: 14.2%;
+  height: 20vh;
+  background-color: white;
+}
+div.number-square{
+  display: flex;
+  color: white;
+  background-color: #0B1942;
+  font-size: 1.5em;
+  width: 40%;
+}
+div.number{
+  text-align: center;
+  margin: 2%;
+}
+div.red{
+  background-color: red;
+}
+main.join{
+  padding: 3%;
+}
+div.personal-info{
+  margin-top: 4%;
+}
+div.file-up label{
+  font-size: 1.3em;
+}
+div.file-up input{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+div.standard-prof-pic{
+  background-image: url('../images/images/profile-placeholder.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 160vh;
+  border-radius: 125vh;
+  width: 80vw;
+  display: flex;
+  margin: auto;
+}
+div.prof-set-up{
+  margin-top: 3%;
+}
+div.box{
+  margin-bottom: 2%;
+  margin-top: 1%;
+}
+div.prof-set-up label{
+  font-size: 1.5em
+}
+div.prof-set-up input{
+  margin-top: .4%;
+  height: 8vh;
+}
+div.intrests{
+  font-size: 1.5em;
+}
+div.radio{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+  width: 3%;
+}
+
+
+@media screen and (min-width: 545px){
+
+  //Header_Nav Styling
+
+  //Main_FilmClub Styling
+
+  //Main_Calendar Styling
+
+  //Main_Join Styling
+
+  //Footer_Nav Styling
+
+}
+
+
+
+
+@media screen and (min-width: 769px){
+
+  //Header_Nav Styling
+
+  //Main_FilmClub Styling
+
+  //Main_Calendar Styling
+
+  //Main_Join Styling
+
+  //Footer_Nav Styling
+
+}
