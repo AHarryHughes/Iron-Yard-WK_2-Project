@@ -326,10 +326,10 @@ div.checkbox{
   width: 20%
 }
 div.button{
-  width: 50%;
+  width: 20%;
 }
 div.intrest{
- width: 50%
+ width: 80%
 }
 
 div.text_area{
@@ -349,4 +349,98 @@ button{
   background-color: #F5005B;
   color: white;
   border: 0px;
+}
+
+
+@media (min-width: 545px) {
+  div.head-img-bkgrd{
+    width: 20%;
+    height: 15vh;
+  }
+  div.head-nav-bar{
+    text-align:center;
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    background-color: #7DDFE8;
+    width: 100%
+  }
+  div.nav-home{
+    height: 100%;
+    width: 20%;
+  }
+  div.nav-calendar{
+    height: 100%;
+    width: 20%;
+  }
+  div.nav-join{
+    height: 100%;
+    width:20%;
+  }
+  div.paragraphs{
+    display: flex;
+  }
+  div.watch{
+    margin: 1%
+  }
+  div.take-notes{
+    margin: 1%
+  }
+  div.meetup{
+    margin: 1%
+  }
+  div.Rashomon{
+    background-color: #E2E2E2;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction:row;
+    padding: 4%;
+  }
+  div.rashomon-img{
+    height: 60vh;
+  }
+  div.movies{
+     display: flex;
+     height: 40vh;
+  }
+  div.movie-poster{
+    width: 24%;
+    padding: 2%;
+  }
+  div.train-robbery{
+    height: 80%;
+  }
+  div.bike-theif{
+    height: 80%;
+  }
+  div.Nosferatu{
+    height: 80%;
+  }
+  div.metropolis{
+    height: 80%;
+  }
+  div.foot-nav-bar{
+    display: flex;
+    height:15vh;
+  }
+  div.foot-nav-bar div.nav-home{
+    height: 100%;
+    width: 15%;
+  }
+  div.foot-nav-bar div.nav-calendar{
+    height: 100%;
+    width: 15%;
+  }
+  div.foot-nav-bar div.nav-join{
+    height: 100%;
+    width: 15%;
+  }
+  div.copyright{
+    height: 100%;
+    width: 55%
+  }
+}
+@media (min-width: 769px) {
+
+
 }
