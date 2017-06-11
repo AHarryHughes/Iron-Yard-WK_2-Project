@@ -31,7 +31,7 @@ copyright text: #FFFFFF */
   background: transparent;
   font-family: 'PT Sans', sans-serif;
   width: 100%;
-  border: 1px solid black;
+  //border: 1px solid black;
 }
 
 
@@ -43,7 +43,7 @@ header div.head{
 div.head-img-bkgrd{
   background-color: #F5005B;
   width: 30%;
-  height: 50vh;
+  height: 20vh;
   display: flex;
   align-items:center;
   justify-content: center;
@@ -126,7 +126,6 @@ div.rashomon-img{
   background-size: contain;
   background-repeat: no-repeat;
   width: 50%;
-  height: 100vh;
   margin-right: 4%;
 }
 div.rashomon-info{
@@ -156,7 +155,7 @@ div.rashomon-info li{
 div.movies{
    background-color: #E2E2E2;
    padding: 4%;
-   height: 215vh;
+   height: 70vh;
    display: flex;
    flex-wrap: wrap;
 }
@@ -204,7 +203,7 @@ div.metropolis{
   margin-bottom: 3%;
 }
 div.foot-nav-bar{
-  height:75vh;
+  height:35vh;
   text-align: center;
   font-size: 1.4em;
 }
@@ -230,17 +229,18 @@ div.copyright{
   font-size: 1em;
 }
 section.calendar-heading{
-  height: 35vh;
+  height: 11vh;
   padding: 3%;
   color: #0B1942;
+  font-size: 1.7em;
 }
 section.calendar h4{
   width: 100%;
   color: white;
   font-size: 2.4em;
   font-weight: 100;
-  height: 30vh;
-  padding: 5%;
+  height: 10vh;
+  padding: 6%;
 }
 section.calendar{
   display: flex;
@@ -253,8 +253,8 @@ div.days{
   flex-wrap: wrap;
 }
 div.day{
-  width: 14.2%;
-  height: 20vh;
+  width: 14.2864%;
+  height: 8vh;
   background-color: white;
 }
 div.number-square{
@@ -262,7 +262,8 @@ div.number-square{
   color: white;
   background-color: #0B1942;
   font-size: 1.5em;
-  width: 40%;
+  width: 50%;
+  padding: 12%;
 }
 div.number{
   text-align: center;
@@ -271,24 +272,28 @@ div.number{
 div.red{
   background-color: red;
 }
-main.join{
-  padding: 3%;
+main.join h3{
+  padding-left: 5%;
+  font-size: 4em;
 }
 div.personal-info{
-  margin-top: 4%;
+
 }
 div.file-up label{
-  font-size: 1.3em;
+  font-size: 1.6em;
+
+  padding-left: 3%;
 }
 div.file-up input{
-  margin-top: 2%;
+  margin-top: 1%;
   margin-bottom: 2%;
+  padding-left: 3%;
 }
 div.standard-prof-pic{
   background-image: url('../images/images/profile-placeholder.png');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 160vh;
+  height: 45vh;
   border-radius: 125vh;
   width: 80vw;
   display: flex;
@@ -300,52 +305,48 @@ div.prof-set-up{
 div.box{
   margin-bottom: 2%;
   margin-top: 1%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 div.prof-set-up label{
   font-size: 1.5em
 }
 div.prof-set-up input{
   margin-top: .4%;
-  height: 8vh;
+  height: 2vh;
 }
 div.intrests{
-  font-size: 1.5em;
+  font-size: 1.4em;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-bottom: 2%;
 }
-div.radio{
+div.checkbox{
   display: flex;
-  flex-direction: row;
-  flex-wrap:nowrap;
-  width: 3%;
+  width: 20%
+}
+div.button{
+  width: 50%;
+}
+div.intrest{
+ width: 50%
 }
 
-
-@media screen and (min-width: 545px){
-
-  //Header_Nav Styling
-
-  //Main_FilmClub Styling
-
-  //Main_Calendar Styling
-
-  //Main_Join Styling
-
-  //Footer_Nav Styling
-
+div.text_area{
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-bottom: 1%;
 }
-
-
-
-
-@media screen and (min-width: 769px){
-
-  //Header_Nav Styling
-
-  //Main_FilmClub Styling
-
-  //Main_Calendar Styling
-
-  //Main_Join Styling
-
-  //Footer_Nav Styling
-
+div.text_area h6{
+  margin-bottom: 1%;
+}
+div.join-button{
+  padding: 3%;
+}
+button{
+  width: 15vw;
+  height: 4vh;
+  background-color: #F5005B;
+  color: white;
+  border: 0px;
 }
